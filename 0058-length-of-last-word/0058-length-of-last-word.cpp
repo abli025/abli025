@@ -6,9 +6,8 @@ public:
             if (s[i] == ' ') {
                 if (len == 0) {
                     continue;
-                } else {
-                    return len;
                 }
+                return len;
             }
             len++;
         }

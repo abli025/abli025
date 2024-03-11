@@ -1,9 +1,9 @@
 class Solution {
 public:
     string customSortString(string order, string s) {
-        int hash[26];
+        int hash[26] = {0};
         std::string ans;
-        memset(hash, 0, sizeof(hash));
+        //memset(hash, 0, sizeof(hash));
         // step 1 : push string s occurance to hash
         for (auto c : s) {
             hash[c-'a']++;

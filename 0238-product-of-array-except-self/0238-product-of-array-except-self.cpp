@@ -1,7 +1,7 @@
 class Solution {
 public:
     vector<int> productExceptSelf(vector<int>& nums) {
-      std::vector<int> prod(nums.size());
+      std::vector<int> prod(nums.size(),1);
       for (auto& x : prod) {
         x = 1;
       }
